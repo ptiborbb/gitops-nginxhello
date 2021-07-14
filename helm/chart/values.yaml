@@ -24,7 +24,7 @@ podAnnotations: {}
 
 service:
   enabled: true
-  type: ClusterIP
+  type: NodePort
   port: 80
 
 ingress:
